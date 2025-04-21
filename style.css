@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: black;
+}
+.navbar {
+  background-color: yellowgreen;
+  border: 2px solid rgb(1, 59, 1);
+  box-shadow: inset 0px 0px 8px 3px rgb(1, 59, 1),
+    0px 0px 3px 1px rgb(146, 215, 9);
+  padding: 10px;
+  text-align: center;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar li {
+  margin-right: 20px;
+}
+/* header */
+.header {
+  background-image: linear-gradient(
+    to left,
+
+    rgb(2, 55, 2),
+    yellowgreen,
+    rgb(34, 159, 34),
+    rgb(7, 122, 7),
+    rgb(12, 91, 5),
+    rgb(2, 55, 2)
+  );
+  padding: 50px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 55px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+.main div {
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid green;
+  width: 500px;
+  border-radius: 25px;
+
+  box-shadow: inset 0px 0px 9px 2px rgb(2, 72, 2), 0px 0px 3px 0px yellowgreen;
+}
+/* footor code */
+.footer {
+  background-color: yellowgreen;
+  padding: 10px;
+  text-align: center;
+  margin-top: 350px;
+  border: 2px solid rgb(1, 59, 1);
+  box-shadow: inset 0px 0px 8px 3px rgb(1, 59, 1),
+    0px 0px 3px 1px rgb(146, 215, 9);
+}
+.header img {
+  width: 10%;
+  display: block;
+  margin: auto;
+}
